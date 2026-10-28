@@ -1,0 +1,256 @@
+{
+  "version": 1,
+  "words": [
+    "facilitat",
+    "interview",
+    "hearing",
+    "run a meeting",
+    "chair a meeting"
+  ],
+  "skill_id": "facilitation",
+  "title": "Facilitating and interviewing",
+  "goal": "In expert interviews and internal meetings, you ask questions at a calm pace, get the other person to talk more, and bring a conversation back to the original question when it drifts.",
+  "scenes": [
+    {
+      "id": "interview",
+      "label": "Expert interviews",
+      "words": [
+        "interview",
+        "expert",
+        "specialist"
+      ]
+    },
+    {
+      "id": "hearing",
+      "label": "Listening sessions and 1-on-1s with clients or colleagues",
+      "words": [
+        "hearing",
+        "1on1",
+        "one on one",
+        "customer",
+        "client",
+        "listening"
+      ]
+    },
+    {
+      "id": "meeting",
+      "label": "Running internal meetings",
+      "words": [
+        "meeting",
+        "facilitate",
+        "facilitation",
+        "agenda",
+        "run a meeting"
+      ]
+    },
+    {
+      "id": "other",
+      "label": "Something else (summarizing, voicing opinions, and so on)",
+      "words": []
+    }
+  ],
+  "troubles": [
+    {
+      "id": "fast",
+      "speaking": true,
+      "label": "I speak too fast or stumble",
+      "cause": "You speed up and stumble because nerves make your breath shallow, and you push out a long sentence in one go on that shallow breath.",
+      "words": [
+        "fast",
+        "rush",
+        "rushing",
+        "stumble",
+        "stumbling",
+        "speed up",
+        "hurry",
+        "mumble"
+      ]
+    },
+    {
+      "id": "shaky",
+      "speaking": true,
+      "label": "My voice goes high or shakes when I am nervous",
+      "cause": "Your voice goes high or shakes because your breath is shallow and your throat tenses.",
+      "words": [
+        "nervous",
+        "nerves",
+        "shaky",
+        "shake",
+        "trembl",
+        "voice cracks",
+        "high pitched",
+        "anxious"
+      ]
+    },
+    {
+      "id": "flat",
+      "speaking": true,
+      "label": "My voice is flat and sounds unsure",
+      "cause": "Your voice sounds flat and unsure because you try to finish in one breath without leaving a pause.",
+      "words": [
+        "monotone",
+        "flat",
+        "no confidence",
+        "unsure",
+        "lack confidence",
+        "doesn't come across",
+        "dull"
+      ]
+    },
+    {
+      "id": "quiet",
+      "label": "The other person does not say much after my question",
+      "cause": "The other person says little because the pause after your question is short, and you often speak again before they start.",
+      "words": [
+        "silence",
+        "silent",
+        "awkward pause",
+        "won't talk",
+        "short answers",
+        "dig deeper",
+        "draw out",
+        "i talk too much",
+        "talk too much"
+      ]
+    },
+    {
+      "id": "drift",
+      "label": "The talk drifts and I cannot bring it back",
+      "cause": "You cannot bring the talk back because you have no set way to sum up what was said so far before returning to the question.",
+      "words": [
+        "off topic",
+        "tangent",
+        "go off",
+        "wander",
+        "can't get back",
+        "run out of time",
+        "scattered",
+        "ramble"
+      ]
+    }
+  ],
+  "sep": ", ",
+  "day_sep": ", ",
+  "when_fmt": "on {days} at {time}",
+  "diagnosis_tail": "So you start by practicing breath and pauses alone. Next you try it in internal meetings and 1-on-1s, and then use it in the real interviews and meetings. Practice reminders come {when}.",
+  "diagnosis_scenes": "You want to use this in: {scenes}.",
+  "stages": [
+    {
+      "n": 1,
+      "name": "Practice alone",
+      "scene": "Every morning, and before the real thing",
+      "kata": [
+        {
+          "id": "f1a",
+          "text": "Five minutes before the real thing, put a hand on your belly and count ten long out-breaths"
+        },
+        {
+          "id": "f1b",
+          "text": "Before a meeting, say your first three sentences (today's purpose, what you want decided, your first question) out loud, breathing in through your nose at each comma or period"
+        },
+        {
+          "id": "f1c",
+          "text": "The day before a listening session, write what you want to ask as three questions, and rephrase each to start with \"In what situation...\" or \"For example...\""
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "name": "Try it at work",
+      "scene": "Internal meetings, 1-on-1s, phone calls",
+      "kata": [
+        {
+          "id": "f2a",
+          "text": "When the other person finishes, repeat one of their words as is, and then say your part"
+        },
+        {
+          "id": "f2b",
+          "text": "When an \"um\" is about to come out, take a light breath in through your nose and use it as the pause"
+        },
+        {
+          "id": "f2c",
+          "text": "At the start of a meeting, say in one sentence what you want decided today"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "name": "The real thing",
+      "scene": "Expert interviews, client listening, running a meeting",
+      "kata": [
+        {
+          "id": "f3a",
+          "text": "When you are introduced, do not start right away; wait three seconds and then begin"
+        },
+        {
+          "id": "f3b",
+          "text": "After a follow-up question, stay silent for three seconds until the other person starts to talk"
+        },
+        {
+          "id": "f3c",
+          "text": "When the talk drifts, sum up what was said so far in one sentence, and then go back to the original question"
+        }
+      ]
+    }
+  ],
+  "pass_rule": "You pass a stage when at least two of its steps get a \"Did it\" on different days.",
+  "graduation_rule": "You graduate when all three are true: you passed stage 3, your count in recording 1 or 2 is half of your first value or less, and one person around you says your speaking is easier to follow than before.",
+  "measures": [
+    {
+      "id": "ah",
+      "label": "Number of \"um\" and \"uh\"",
+      "unit": "times",
+      "how": "Once a week, record one minute on your phone on the same topic (for example, how you explain your work this week). Count the \"um\" and \"uh\" and enter the number. You pass when it is half of your first count.",
+      "max": 200,
+      "min": 0
+    },
+    {
+      "id": "talk",
+      "label": "Share of time you spoke",
+      "unit": "%",
+      "how": "In a recording of an interview or 1-on-1, check what percent of the time you were talking. In a listening session, 30% or less is a good guide. If you have no recording this week, leave it blank.",
+      "max": 100,
+      "min": 0
+    },
+    {
+      "id": "read",
+      "label": "Seconds to read a fixed text",
+      "unit": "sec",
+      "how": "Read the fixed text below aloud to the end, time it, and enter the seconds. Your first time is your own baseline. If you read too fast, a longer time counts as progress.",
+      "max": 600,
+      "min": 1
+    }
+  ],
+  "read_text": "Before a meeting, first narrow today's purpose down to one thing. Next, write down what you want decided and settle your first question. Once the talk begins, listen to the other person to the end and check only the parts you did not understand, briefly. When the talk widens, sum up what has been said in one sentence and go back to the original question. At the end, say aloud what was decided and what happens next. In any setting, take your time, steady your breath, and keep the same pace. When the listener is calm, the speaker can talk with more ease. Your volume can be as usual. If you misread a word, just keep going without correcting it. Read all of this aloud, to the very end.",
+  "reasons": [
+    {
+      "id": "forgot",
+      "label": "I forgot",
+      "next": "From tomorrow, the reminder comes 15 minutes earlier (15 minutes before the scene)"
+    },
+    {
+      "id": "cant_say",
+      "label": "I could not bring it up",
+      "next": "If you cannot bring it up on another day too, you go back one stage"
+    },
+    {
+      "id": "not_fit",
+      "label": "I tried it, but it did not fit",
+      "next": "Tomorrow you get a different step from the same stage"
+    },
+    {
+      "id": "no_scene",
+      "label": "There was no scene",
+      "next": "Today does not count. Tomorrow only the practice-alone steps appear"
+    }
+  ],
+  "messages": {
+    "advance": "You moved on to stage {n}.",
+    "passed3": "You passed stage 3.",
+    "drop": "You could not bring it up two days in a row, so you go back one stage (stage {n}).",
+    "remaining": "{k} more \"Did it\" (on a different step, on a different day) and {next}.",
+    "remaining_next": "you move to stage {n}",
+    "remaining_pass": "you pass stage 3"
+  },
+  "check_question": "Has my speaking become easier to follow lately?"
+}

@@ -1,0 +1,308 @@
+{
+  "version": 1,
+  "skill_id": "presentation",
+  "title": "Presenting",
+  "goal": "When you explain, propose, or report inside or outside the company, you start with the conclusion, speak calmly, and leave listeners knowing what to do next.",
+  "words": [
+    "presentation",
+    "present",
+    "presenting",
+    "public speaking",
+    "speak in public",
+    "speak well",
+    "talk better",
+    "speaking",
+    "bad at explaining",
+    "doesn't come across",
+    "speech",
+    "on stage",
+    "pitch"
+  ],
+  "scenes": [
+    {
+      "id": "report",
+      "label": "Internal reports and regular meetings",
+      "words": [
+        "report",
+        "status",
+        "update",
+        "weekly",
+        "boss",
+        "manager",
+        "internal"
+      ]
+    },
+    {
+      "id": "proposal",
+      "label": "Proposals and explanations to clients",
+      "words": [
+        "proposal",
+        "client",
+        "customer",
+        "explain",
+        "sales",
+        "pitch",
+        "deal"
+      ]
+    },
+    {
+      "id": "stage",
+      "label": "Presenting in front of people, on stage",
+      "words": [
+        "presentation",
+        "stage",
+        "audience",
+        "in front of people",
+        "seminar",
+        "talk",
+        "speech",
+        "conference"
+      ]
+    },
+    {
+      "id": "other",
+      "label": "Something else (interviews, morning meetings, greetings, and so on)",
+      "words": []
+    }
+  ],
+  "troubles": [
+    {
+      "id": "fast",
+      "label": "I speak too fast or stumble",
+      "speaking": true,
+      "cause": "You speed up and stumble because nerves make your breath shallow, and you push out a long sentence in one go on that shallow breath.",
+      "words": [
+        "fast",
+        "rush",
+        "rushing",
+        "stumble",
+        "stumbling",
+        "speed up",
+        "hurry",
+        "mumble",
+        "tongue-tied",
+        "can't speak well"
+      ]
+    },
+    {
+      "id": "shaky",
+      "label": "My voice goes high or shakes when I am nervous",
+      "speaking": true,
+      "cause": "Your voice goes high or shakes because your breath is shallow and your throat tenses.",
+      "words": [
+        "nervous",
+        "nerves",
+        "shaky",
+        "shake",
+        "trembl",
+        "voice cracks",
+        "high pitched",
+        "anxious",
+        "mind goes blank",
+        "stage fright"
+      ]
+    },
+    {
+      "id": "flat",
+      "label": "My voice is flat and sounds unsure",
+      "speaking": true,
+      "cause": "Your voice sounds flat and unsure because you try to finish in one breath without a pause, and the ends of your sentences fade.",
+      "words": [
+        "monotone",
+        "flat",
+        "no confidence",
+        "unsure",
+        "lack confidence",
+        "quiet voice",
+        "dull",
+        "boring",
+        "confident"
+      ]
+    },
+    {
+      "id": "filler",
+      "label": "I say \"um\" and \"uh\" a lot",
+      "speaking": true,
+      "cause": "You say \"um\" and \"uh\" a lot because, while you think of what to say next, silence feels scary and you fill it with sound.",
+      "words": [
+        "um",
+        "uh",
+        "filler",
+        "filler words",
+        "you know",
+        "afraid of silence",
+        "verbal tic"
+      ]
+    },
+    {
+      "id": "late_point",
+      "label": "My conclusion comes late, and people miss my point",
+      "cause": "Your conclusion comes late because you start from the background in order, without deciding your first sentence before you speak.",
+      "words": [
+        "conclusion",
+        "point",
+        "get to the point",
+        "unclear",
+        "confusing",
+        "bad at explaining",
+        "long intro",
+        "doesn't come across",
+        "bottom line"
+      ]
+    },
+    {
+      "id": "long",
+      "label": "I talk too long and run over time",
+      "cause": "You talk too long because you try to fit everything in and go on without deciding what to cut first.",
+      "words": [
+        "too long",
+        "over time",
+        "run over",
+        "overtime",
+        "talk too much",
+        "cram",
+        "time limit",
+        "run out of time"
+      ]
+    },
+    {
+      "id": "qa",
+      "label": "I freeze on questions and cannot answer well",
+      "cause": "You freeze on questions because you try to answer at once and start talking while still thinking, without a pause to confirm the question.",
+      "words": [
+        "question",
+        "q&a",
+        "q and a",
+        "can't answer",
+        "freeze",
+        "put on the spot",
+        "unexpected question",
+        "comeback"
+      ]
+    }
+  ],
+  "sep": ", ",
+  "day_sep": ", ",
+  "when_fmt": "on {days} at {time}",
+  "diagnosis_tail": "So you start by practicing alone the day before and preparing your first 30 seconds. Next you try it in internal meetings and reports, and then use it in real client proposals and presentations. Practice reminders come {when}.",
+  "diagnosis_scenes": "You want to use this in: {scenes}.",
+  "stages": [
+    {
+      "n": 1,
+      "name": "Practice alone",
+      "scene": "The day before, and before the real thing",
+      "kata": [
+        {
+          "id": "p1a",
+          "text": "The day before, write what you will say in the first 30 seconds (conclusion, reason, what you are asking for) as three sentences, say them aloud, and time it"
+        },
+        {
+          "id": "p1b",
+          "text": "Five minutes before the real thing, put a hand on your belly, count ten long out-breaths, and say your first sentence slowly out loud"
+        },
+        {
+          "id": "p1c",
+          "text": "The day before, write three questions you are likely to get, and say the first sentence of each answer out loud"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "name": "Try it at work",
+      "scene": "Internal meetings, reports, quick discussions",
+      "kata": [
+        {
+          "id": "p2a",
+          "text": "In a regular report, state your conclusion within 20 seconds of starting, and then give the reasons"
+        },
+        {
+          "id": "p2b",
+          "text": "When you change slides or topics, stay silent for one second and breathe in before you go on"
+        },
+        {
+          "id": "p2c",
+          "text": "When asked a question, do not answer right away; first confirm it (\"So you are asking about...\") and then answer"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "name": "The real thing",
+      "scene": "Client proposals and explanations, presenting in front of people",
+      "kata": [
+        {
+          "id": "p3a",
+          "text": "Before you begin, look at your listeners and wait two seconds, then say your first sentence"
+        },
+        {
+          "id": "p3b",
+          "text": "In the first 30 seconds, state your conclusion and what you are asking the listeners to do"
+        },
+        {
+          "id": "p3c",
+          "text": "In the last minute, repeat your conclusion and what you want them to do next"
+        }
+      ]
+    }
+  ],
+  "pass_rule": "You pass a stage when at least two of its steps get a \"Did it\" on different days.",
+  "graduation_rule": "You graduate when all three are true: you passed stage 3, your \"um\" count is half of your first count or less, and one person around you says your explanations are easier to follow than before.",
+  "measures": [
+    {
+      "id": "ah",
+      "label": "Number of \"um\" and \"uh\"",
+      "unit": "times",
+      "how": "Once a week, record one minute on your phone on the same topic (for example, your work report for this week). Count the \"um\" and \"uh\" and enter the number. You pass when it is half of your first count.",
+      "max": 200,
+      "min": 0
+    },
+    {
+      "id": "point",
+      "label": "Times you gave the conclusion in the first 20 seconds",
+      "unit": "times",
+      "how": "Of this week's reports, proposals, and presentations, enter how many times you stated your conclusion within 20 seconds of starting. If you have a recording, listen back and count. If you had no chance to speak this week, leave it blank.",
+      "max": 50,
+      "min": 0
+    },
+    {
+      "id": "read",
+      "label": "Seconds to read a fixed text",
+      "unit": "sec",
+      "how": "Read the fixed text below aloud to the end, time it, and enter the seconds. Your first time is your own baseline. If you read too fast, a longer time counts as progress.",
+      "max": 600,
+      "min": 1
+    }
+  ],
+  "read_text": "Today I would like to report on how we will work from next month. To start with the conclusion, we will change the order of the work and cut reviews down to once a week. There are two reasons. First, waiting for reviews took up thirty percent of our total time. Second, when you looked at things together at an early stage, we had less rework. So I have a request for all of you. Could you give us thirty minutes every Friday afternoon? We will send the materials by the day before. If you have questions, I am happy to take them here. If you misread a word, just keep going without correcting it. Read all of this aloud, to the very end.",
+  "reasons": [
+    {
+      "id": "forgot",
+      "label": "I forgot",
+      "next": "From tomorrow, the reminder comes 15 minutes earlier (15 minutes before the scene)"
+    },
+    {
+      "id": "cant_say",
+      "label": "I could not bring it up",
+      "next": "If you cannot bring it up on another day too, you go back one stage"
+    },
+    {
+      "id": "not_fit",
+      "label": "I tried it, but it did not fit",
+      "next": "Tomorrow you get a different step from the same stage"
+    },
+    {
+      "id": "no_scene",
+      "label": "There was no scene",
+      "next": "Today does not count. Tomorrow only the practice-alone steps appear"
+    }
+  ],
+  "messages": {
+    "advance": "You moved on to stage {n}.",
+    "passed3": "You passed stage 3.",
+    "drop": "You could not bring it up two days in a row, so you go back one stage (stage {n}).",
+    "remaining": "{k} more \"Did it\" (on a different step, on a different day) and {next}.",
+    "remaining_next": "you move to stage {n}",
+    "remaining_pass": "you pass stage 3"
+  },
+  "check_question": "Have my explanations become easier to follow lately?"
+}

@@ -1,0 +1,33 @@
+{
+  "schema": 1,
+  "menus": [
+    {
+      "id": "facilitation",
+      "lang": "ja",
+      "version": 1,
+      "path": "coach/facilitation.json",
+      "sha256": "c7c97f3eb19e5435d95257f309a68ab09a5b039f9e31a06b55869e4b3903ec03"
+    },
+    {
+      "id": "facilitation",
+      "lang": "en",
+      "version": 1,
+      "path": "coach/facilitation_en.json",
+      "sha256": "4695d90a505f3bfa1e77fbe87f8664a17852970bcb49992fb998c6d628b18fef"
+    },
+    {
+      "id": "presentation",
+      "lang": "ja",
+      "version": 1,
+      "path": "coach/presentation.json",
+      "sha256": "1eabca03d1eed37357634744207117f6dcec73099d987545fc29e82872e1f1a9"
+    },
+    {
+      "id": "presentation",
+      "lang": "en",
+      "version": 1,
+      "path": "coach/presentation_en.json",
+      "sha256": "a05af4baa2f50fc4a4ac46c1b6416c09816054d5ab4168925b89cf43083b9e24"
+    }
+  ]
+}
