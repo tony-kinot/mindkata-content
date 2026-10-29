@@ -18,16 +18,16 @@
     {
       "id": "presentation",
       "lang": "ja",
-      "version": 1,
+      "version": 2,
       "path": "coach/presentation.json",
-      "sha256": "1eabca03d1eed37357634744207117f6dcec73099d987545fc29e82872e1f1a9"
+      "sha256": "a0aa9c2d3abb8fe827648fd003a03447891c9f8b2f9db95bf2885638cb0bdb83"
     },
     {
       "id": "presentation",
       "lang": "en",
-      "version": 1,
+      "version": 2,
       "path": "coach/presentation_en.json",
-      "sha256": "a05af4baa2f50fc4a4ac46c1b6416c09816054d5ab4168925b89cf43083b9e24"
+      "sha256": "b5c2ec22d901b3f7a6e92481eb8b03fdd397cde2512d285faefbb14b1ecb07ff"
     }
   ]
 }

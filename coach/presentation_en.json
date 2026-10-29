@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "skill_id": "presentation",
   "title": "Presenting",
   "goal": "When you explain, propose, or report inside or outside the company, you start with the conclusion, speak calmly, and leave listeners knowing what to do next.",
@@ -179,6 +179,26 @@
         "unexpected question",
         "comeback"
       ]
+    },
+    {
+      "id": "r2e20d7657a2f",
+      "label": "I can't keep a meeting on track when I'm running it",
+      "cause": "Meetings drift when you're leading them because you start without stating the goal, what needs to be decided, and how much time each topic gets, and then you let side discussions run without steering back.",
+      "words": [
+        "facilitate",
+        "facilitator",
+        "run a meeting",
+        "chair a meeting",
+        "meeting drifts",
+        "off topic",
+        "runs over time",
+        "no decision",
+        "keep on track",
+        "moderator"
+      ],
+      "fulfills": [
+        "2e20d7657a2f"
+      ]
     }
   ],
   "sep": ", ",
@@ -203,6 +223,10 @@
         {
           "id": "p1c",
           "text": "The day before, write three questions you are likely to get, and say the first sentence of each answer out loud"
+        },
+        {
+          "id": "r2e20d7657a2fs1",
+          "text": "The day before, write down the meeting's purpose, what it needs to decide, and the time for each topic, then read your opening line out loud once."
         }
       ]
     },
@@ -222,6 +246,10 @@
         {
           "id": "p2c",
           "text": "When asked a question, do not answer right away; first confirm it (\"So you are asking about...\") and then answer"
+        },
+        {
+          "id": "r2e20d7657a2fs2",
+          "text": "At the start of an internal meeting, say \"Today we're deciding X, and we'll have an answer by Y o'clock,\" then call on the person you want to hear from first by name."
         }
       ]
     },
@@ -241,6 +269,10 @@
         {
           "id": "p3c",
           "text": "In the last minute, repeat your conclusion and what you want them to do next"
+        },
+        {
+          "id": "r2e20d7657a2fs3",
+          "text": "Two minutes before a client meeting ends, read out what was decided and who will do what by when, and check that everyone agrees."
         }
       ]
     }
