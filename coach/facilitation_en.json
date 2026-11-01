@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "words": [
     "facilitat",
     "interview",
@@ -127,6 +127,25 @@
         "scattered",
         "ramble"
       ]
+    },
+    {
+      "id": "r8c1bd7be29f8",
+      "label": "Meetings run out of time with nothing decided",
+      "cause": "You move from one topic to the next without saying out loud what was just agreed, so by the end there are plenty of opinions on the table but no decisions, and time runs out.",
+      "words": [
+        "no decisions",
+        "ran out of time",
+        "running meetings",
+        "facilitating",
+        "chairing",
+        "meeting overran",
+        "no conclusion",
+        "wrap up",
+        "keep on track"
+      ],
+      "fulfills": [
+        "8c1bd7be29f8"
+      ]
     }
   ],
   "sep": ", ",
@@ -151,6 +170,10 @@
         {
           "id": "f1c",
           "text": "The day before a listening session, write what you want to ask as three questions, and rephrase each to start with \"In what situation...\" or \"For example...\""
+        },
+        {
+          "id": "r8c1bd7be29f8s1",
+          "text": "The day before a meeting, write one sentence per agenda item stating what needs to be decided and how many minutes it gets, then read them aloud once."
         }
       ]
     },
@@ -170,6 +193,10 @@
         {
           "id": "f2c",
           "text": "At the start of a meeting, say in one sentence what you want decided today"
+        },
+        {
+          "id": "r8c1bd7be29f8s2",
+          "text": "In a team meeting, each time an agenda item wraps up, say in one sentence \"So what we've agreed is…\" before moving to the next item."
         }
       ]
     },
@@ -189,6 +216,10 @@
         {
           "id": "f3c",
           "text": "When the talk drifts, sum up what was said so far in one sentence, and then go back to the original question"
+        },
+        {
+          "id": "r8c1bd7be29f8s3",
+          "text": "When chairing a meeting, five minutes before the end, state in one sentence each what has been decided and what is still open, then confirm who will settle the open item and by when."
         }
       ]
     }

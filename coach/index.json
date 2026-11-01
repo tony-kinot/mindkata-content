@@ -4,30 +4,30 @@
     {
       "id": "facilitation",
       "lang": "ja",
-      "version": 1,
+      "version": 2,
       "path": "coach/facilitation.json",
-      "sha256": "c7c97f3eb19e5435d95257f309a68ab09a5b039f9e31a06b55869e4b3903ec03"
+      "sha256": "639ed02192369ae25392dee5fd9cb9e13b62cbb03965b7e373ad5795c502de67"
     },
     {
       "id": "facilitation",
       "lang": "en",
-      "version": 1,
+      "version": 2,
       "path": "coach/facilitation_en.json",
-      "sha256": "4695d90a505f3bfa1e77fbe87f8664a17852970bcb49992fb998c6d628b18fef"
+      "sha256": "a8e38a278008645f6e367537f104aaefae33f096af0cb2581794296538fe5192"
     },
     {
       "id": "presentation",
       "lang": "ja",
-      "version": 2,
+      "version": 3,
       "path": "coach/presentation.json",
-      "sha256": "a0aa9c2d3abb8fe827648fd003a03447891c9f8b2f9db95bf2885638cb0bdb83"
+      "sha256": "48417f293c73838237975b076b9e2ea3c313a7edaef18f931e42801544f174d0"
     },
     {
       "id": "presentation",
       "lang": "en",
-      "version": 2,
+      "version": 3,
       "path": "coach/presentation_en.json",
-      "sha256": "b5c2ec22d901b3f7a6e92481eb8b03fdd397cde2512d285faefbb14b1ecb07ff"
+      "sha256": "0c18c40fb3660cee928341ed64bd462c12e4dc6f7b3aa17d2dd853aed7306c8b"
     }
   ]
 }

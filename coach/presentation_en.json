@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "skill_id": "presentation",
   "title": "Presenting",
   "goal": "When you explain, propose, or report inside or outside the company, you start with the conclusion, speak calmly, and leave listeners knowing what to do next.",
@@ -199,6 +199,24 @@
       "fulfills": [
         "2e20d7657a2f"
       ]
+    },
+    {
+      "id": "r7db6d50d16b9",
+      "label": "I ask the audience for input, but nobody responds",
+      "cause": "Nobody responds because you ask something broad like \"Any thoughts?\" and then start talking again after about two seconds, so the audience never gets time to think and answer.",
+      "words": [
+        "no response",
+        "silent audience",
+        "no questions",
+        "engage audience",
+        "interactive",
+        "awkward silence",
+        "ask for input",
+        "participation"
+      ],
+      "fulfills": [
+        "7db6d50d16b9"
+      ]
     }
   ],
   "sep": ", ",
@@ -227,6 +245,10 @@
         {
           "id": "r2e20d7657a2fs1",
           "text": "The day before, write down the meeting's purpose, what it needs to decide, and the time for each topic, then read your opening line out loud once."
+        },
+        {
+          "id": "r7db6d50d16b9s1",
+          "text": "The day before, write two questions to ask the audience at the end, each answerable with yes/no or \"A or B,\" and say them out loud."
         }
       ]
     },
@@ -250,6 +272,10 @@
         {
           "id": "r2e20d7657a2fs2",
           "text": "At the start of an internal meeting, say \"Today we're deciding X, and we'll have an answer by Y o'clock,\" then call on the person you want to hear from first by name."
+        },
+        {
+          "id": "r7db6d50d16b9s2",
+          "text": "In a team meeting, after you ask for input, look at the group and stay quiet for five seconds before you say anything else."
         }
       ]
     },
@@ -273,6 +299,10 @@
         {
           "id": "r2e20d7657a2fs3",
           "text": "Two minutes before a client meeting ends, read out what was decided and who will do what by when, and check that everyone agrees."
+        },
+        {
+          "id": "r7db6d50d16b9s3",
+          "text": "In the real presentation, after asking for input, wait five seconds while looking at the audience; if no one speaks, ask again as \"Which would you pick, A or B?\""
         }
       ]
     }
